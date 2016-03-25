@@ -1,0 +1,189 @@
+/*******GENERAL*******/
+body {font-family: 'Rambla', sans-serif;
+background-color: #66CCFF;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;}
+
+a {text-decoration: none;}
+
+
+/********HEADING*********/
+header {
+float:none;
+width: 100%;
+background-image:url(/img/chrome1.png);
+background-image:  50% 50% / 100% no-repeat fixed;
+}
+
+#logo {
+font-family: Galindo;
+text-align: center;
+background-size: cover;
+background-size: 100%;
+height: 100%;
+}
+
+h1 {
+font-size: 50px;
+padding: 0;
+}
+
+#search {
+font-family: Sarala;
+text-align:center;
+}
+
+/********NAV**********/
+nav {
+font-family: Sarala;
+text-align:center;
+}
+
+nav ul {
+list-style: none;
+margin: 15px 10px 15px 15px;
+padding: 0 10px;
+}
+
+nav li {
+display: inline-block;
+}
+
+#nav-wrapper {
+width:465px;
+margin:20px;
+padding:5px 0;
+background:	#404040;
+}
+
+
+nav li a {
+text-decoration:none;
+display: block;
+margin: 0 20px;
+padding: 15px 21px;
+background:#A8A8A8;
+color:#eee;
+float:left;
+text-align:center;
+border-top:2px solid #989898;
+border-right:2px solid #C0C0C0 ;
+border-bottom:2px solid #C0C0C0 ;
+border-left:2px solid #989898;
+}
+
+nav li a:hover {
+background:#66CCFF;
+color:#000;
+border-top:2px solid #989898;
+border-right:2px solid #C0C0C0 ;
+border-bottom:2px solid #C0C0C0 ;
+border-left:2px solid #989898;
+}
+/********HOME********/
+#pop_list_title {
+text-align: center;
+}
+
+#pop_list {
+text-align: center;
+}
+
+#pop_list li {
+display: inline-block;
+text-align: center;
+margin: 10px;
+}
+
+#pop_list img {
+max-height: 150px;
+max-width: 150px;
+border-radius: 10%;
+}
+
+
+/********ABOUT*********/
+ #freddy {
+max-height: 300px;
+max-width: 300px;
+display: inline-block;
+float: right;
+border-radius: 10%;
+}
+
+
+
+/**********SIGN IN********/
+#pop_logo {
+max-height: 200px;
+max-width: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 100%;
+}
+
+#container {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/**********CONTACT***********/
+
+#email {
+text-align: center;
+}
+
+#email_p {
+text-align: center;
+}
+
+#email_form {
+float:left;
+}
+
+#vegeta {
+float: right;
+margin: 0;
+max-width: 350px;
+border-radius: 15%;
+}
+
+/********FOOTER******/
+
+#footer {
+float: right;
+}
+/**********COLORS**********/
+
+h1, h2 {
+color: #00ff00;
+}
+
+#pop_list_title {
+color: #606060;
+}
+
+#footer {
+color: #606060;
+}
+
+/*******POP PAGES*******/
+#pop_title {
+text-align: center;
+}
+
+#pops {
+text-align: center;
+}
+
+#pops img {
+max-width: 250px;
+max-width: 250px;
+border-radius: 5%;
+
+}
